@@ -1,0 +1,41 @@
+#middle{
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 70px;
+}
+
+#google_logo{
+  margin:auto;
+  display: block;
+  clear: right;
+
+}
+#search{
+  padding: 10px;
+  width: 500px;
+  clear: right;
+  display:block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 10px 15px;
+  color: #807474;
+  font-weight: bold;
+  border: 0px;
+  background-color: #f1f1f1;
+}
+#top_bar{
+  float: right;
+}
+
+#top_bar a{
+  text-align: right;
+  text-decoration: none;
+  font-family: Arial;
+  padding: 10px;
+  color: #716666;
+
+}
+
