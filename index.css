@@ -10,6 +10,33 @@
   clear: right;
 
 }
+#bottom_bar{
+  display: block;
+  bottom: 0px;
+	width: 100%;
+  position: fixed;
+  margin:0px;
+  padding: 15px;
+  background-color: #efefef;
+}
+
+#bottom_bar a{
+  color: #5f656b;
+  font-family: sans-serif;
+  margin-right: 5px;
+  font-size: 14px;
+  text-decoration:none;
+}
+
+#bottom_bar-left{
+  float: left;
+  clear: bottom 
+}
+
+#bottom_bar-right{
+	float: right;
+}
+
 #search{
   padding: 10px;
   width: 500px;
@@ -26,6 +53,9 @@ button{
   border: 0px;
   background-color: #f1f1f1;
 }
+#clear{
+  clear:both;
+}
 #top_bar{
   float: right;
 }
@@ -38,4 +68,12 @@ button{
   color: #716666;
 
 }
+
+body{
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+}
+
+
+
 
